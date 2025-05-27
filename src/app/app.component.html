@@ -18,17 +18,23 @@
         <li class="menu dropdown">
           <span>Pages</span>
             <ul class="dropdown-content">
-              <li><span routerLink="appointment">Appointment</span></li>
-              <li><span routerLink="gallery">Gallery</span></li>
-              <li><span routerLink="team">Our Team</span></li>
-              <li><span routerLink="price">Our Pricing</span></li>
-              <li><span routerLink="error">404 Error</span></li>
+              <li><span class="dropdown-link" routerLink="appointment">Appointment</span></li>
+              <li><span class="dropdown-link" routerLink="gallery">Gallery</span></li>
+              <li><span class="dropdown-link" routerLink="team">Our Team</span></li>
+              <li><span class="dropdown-link" routerLink="price">Our Pricing</span></li>
+              <li><span class="dropdown-link" routerLink="error">404 Error</span></li>
           </ul>
         </li>
-        <li class="menu"><span routerLink="blogs">Blog</span></li>
+        <li class="menu dropdown">
+          <span routerLink="blogs">Blog</span>
+          <ul class="dropdown-content">
+              <li><span class="dropdown-link" routerLink="blogs">Blog Grid</span></li>
+              <li><span class="dropdown-link" routerLink="blog-single">Blog Single</span></li>
+          </ul>
+        </li>
         <li class="menu"><span routerLink="contact">Contact</span></li>
         <div class="get-quote">
-          <a href="#" class="hbtn hb-fill-middle2-rev">Make Appointment</a>
+          <a href="#" class="hbtn hb-fill-middle2-rev" routerLink="appointment">Make Appointment</a>
         </div>
       </ul>
     </div>

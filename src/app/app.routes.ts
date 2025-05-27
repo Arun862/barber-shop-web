@@ -9,6 +9,7 @@ import { TeamComponent } from './pages/team/team.component';
 import { PriceComponent } from './pages/price/price.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { BlogSingleComponent } from './pages/blog-single/blog-single.component';
 
 export const routes: Routes = [
     {
@@ -50,5 +51,9 @@ export const routes: Routes = [
     {
         path: "gallery", 
         component: GalleryComponent
+    },
+    {
+        path: "blog-single", 
+        component: BlogSingleComponent
     },
 ];
