@@ -1,0 +1,94 @@
+.error{
+    margin: 150px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .text{
+        .head{
+            font-size: 36px;
+            color: #303133;
+            margin: 0 0 8px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: -0.04em;
+        }
+        .para{
+            color: #777777;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .get-quote{
+                    .hbtn {
+                        position: relative;
+                        box-sizing: border-box;
+                        display: inline-block;
+                        overflow: hidden;
+                        padding: 0 30px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        white-space: nowrap;
+                        z-index: 0;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                  }                        
+                  
+                  .hb-fill-middle2-rev::before {
+                        position: absolute;
+                        content: "";
+                        background: #9e8a78;
+                        transition-duration: 0.4s;
+                        z-index: -1;
+                        inset: 0px 0px auto auto;
+                        width: 50%;
+                        height: 100%;
+                        opacity: 1;
+                  } 
+                   
+                  
+                  .hb-fill-middle2-rev:hover::before {
+                        width: 0px;
+                        height: 100%;
+                        opacity: 1;
+                  } 
+                   
+                  
+                  .hb-fill-middle2-rev {
+                        background: #32323a;
+                        color: rgb(255, 255, 255);
+                        transition: color 0.3s, background 0.3s;
+                  } 
+                   
+                  
+                  .hb-fill-middle2-rev:hover {
+                        background: #32323a;
+                        color: rgb(255, 255, 255);
+                        transition: color 0.3s, ;
+                  } 
+                   
+                  
+                  .hb-fill-middle2-rev::after {
+                        position: absolute;
+                        content: "";
+                        background: #9e8a78;
+                        transition-duration: 0.4s;
+                        z-index: -1;
+                        inset: 0px auto auto 0px;
+                        width: 50%;
+                        height: 100%;
+                        opacity: 1;
+                  } 
+                   
+                  
+                  .hb-fill-middle2-rev:hover::after {
+                        width: 0px;
+                } 
+                  
+        }
+    }
+}
