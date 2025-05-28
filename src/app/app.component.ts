@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Router, RouterModule, RouterOutlet } from '@angular/router';
+import { ClickOutsideDirective } from './lib/directives/click-outside.directive';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterModule],
+  imports: [RouterOutlet, RouterModule, ClickOutsideDirective],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
