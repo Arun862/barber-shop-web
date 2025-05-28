@@ -10,47 +10,47 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class HomeComponent {
     
-   sponsors= [
-     {
-      image: "sponsor-1.png"
-    },
+//    sponsors= [
+//      {
+//       image: "sponsor-1.png"
+//     },
 
-    {
-      image: "sponsor-2.png"
-    },
+//     {
+//       image: "sponsor-2.png"
+//     },
 
-    {
-      image: "sponsor-3.png"
-    }, 
+//     {
+//       image: "sponsor-3.png"
+//     }, 
 
-    {
-     image: "sponsor-4.png"
-    },
+//     {
+//      image: "sponsor-4.png"
+//     },
 
-  {
-    image: "sponsor-5.png"
-  },
+//   {
+//     image: "sponsor-5.png"
+//   },
 
-    {
-      image: "sponsor-1.png"
-    },
+//     {
+//       image: "sponsor-1.png"
+//     },
 
-    {
-      image: "sponsor-2.png"
-    },
+//     {
+//       image: "sponsor-2.png"
+//     },
 
-    {
-      image: "sponsor-3.png"
-    }, 
+//     {
+//       image: "sponsor-3.png"
+//     }, 
 
-    {
-     image: "sponsor-4.png"
-    },
+//     {
+//      image: "sponsor-4.png"
+//     },
 
-  {
-    image: "sponsor-5.png"
-  }
-];
+//   {
+//     image: "sponsor-5.png"
+//   }
+// ];
 
 
 constructor(
