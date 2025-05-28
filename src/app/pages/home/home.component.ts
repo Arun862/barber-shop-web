@@ -9,6 +9,51 @@ import { Router, RouterModule } from '@angular/router';
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class HomeComponent {
+
+
+    sponsors= [
+     {
+      image: "sponsor-1.png"
+    },
+
+    {
+      image: "sponsor-2.png"
+    },
+
+    {
+      image: "sponsor-3.png"
+    }, 
+
+    {
+     image: "sponsor-4.png"
+    },
+
+  {
+    image: "sponsor-5.png"
+  },
+
+    {
+      image: "sponsor-1.png"
+    },
+
+    {
+      image: "sponsor-2.png"
+    },
+
+    {
+      image: "sponsor-3.png"
+    }, 
+
+    {
+     image: "sponsor-4.png"
+    },
+
+  {
+    image: "sponsor-5.png"
+  }
+];
+
+
 constructor(
     private router: Router
   ){}

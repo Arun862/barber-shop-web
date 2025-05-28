@@ -531,3 +531,19 @@
     </div>
   </div>
 </section>
+
+<section class="sponser">
+  <div class="container px-5 mx-auto">
+    <div class="spo-bg">
+     <swiper-container loop="true" Autoplay="true" slides-per-view="5">
+       @for (sponsor of sponsors; track $index){
+          <swiper-slide>
+            <div class="spo-images">
+            <img [src]="sponsor.image" alt="" width="200px">
+        </div>
+      </swiper-slide>
+        }
+    </swiper-container>
+  </div>
+  </div>
+</section>
